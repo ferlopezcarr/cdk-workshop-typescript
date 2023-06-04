@@ -1,6 +1,11 @@
 {
   "name": "cdk-workshop-typescript",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
   "bin": {
     "cdk-workshop-typescript": "bin/cdk-workshop-typescript.js"
   },
@@ -10,17 +15,18 @@
     "test": "jest",
     "cdk": "cdk"
   },
-  "devDependencies": {
-    "@types/jest": "^29.5.1",
-    "@types/node": "20.1.7",
-    "jest": "^29.5.0",
-    "ts-jest": "^29.1.0",
-    "aws-cdk": "2.81.0",
-    "ts-node": "^10.9.1",
-    "typescript": "~5.0.4"
-  },
   "dependencies": {
     "aws-cdk-lib": "2.81.0",
     "constructs": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "@types/node": "20.1.7",
+    "aws-cdk": "2.81.0",
+    "dotenv": "^16.1.3",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "~5.0.4"
   }
 }
